@@ -6,10 +6,12 @@ int main()
     string name;
     int age;
 
-    cout << "- Hello! What is your name?" << endl << "> ";
+    cout << "- Hello! What is your name?" << endl;
+    cerr << "> ";
     cin >> name;
     cout << "- I'm glad to see you, " << name << "!" << endl
-        << "- What is your age?" << endl << "> ";
+        << "- What is your age?" << endl;
+    cerr << "> ";
     cin >> age;
     cout << "- I thought you are " << age + 2
         << " years old. You look younger!" << endl;
